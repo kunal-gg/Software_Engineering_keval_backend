@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 );
 
 app.post('/login', (req, res) => {
-    res.statusCode(200).send('Login Successful');
+    res.send("Login Successful");
 })
 
 app.get('/login', (req, res) => {
