@@ -27,7 +27,7 @@ app.post('/register', (req, res) => {
     })
 
 
-    console.log(user)
+    res.send(user)
 })
 
 app.listen(3000, () => {
