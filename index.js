@@ -11,7 +11,7 @@ app.post('/login', (req, res) => {
 })
 
 app.post('/register', (req, res) => {
-    res.json("this is working")
+    res.send("this is working")
 })
 
 app.listen(3000, () => {
