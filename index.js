@@ -26,7 +26,7 @@ app.post('/register', (req, res) => {
         
     })
 
-    user.save()
+
     console.log(user)
 })
 
