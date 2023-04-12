@@ -10,7 +10,7 @@ app.post('/login', (req, res) => {
     res.send("Login Successful");
 })
 
-app.get('/login', (req, res) => {
+app.get('/register', (req, res) => {
     res.json("this is working")
 })
 
