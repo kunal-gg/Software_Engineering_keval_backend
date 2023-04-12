@@ -10,6 +10,10 @@ app.post('/login', (req, res) => {
     res.statusCode(200).send('Login Successful');
 })
 
+app.get('/login', (req, res) => {
+    res.json("this is working")
+})
+
 app.listen(3000, () => {
     console.log('Listening on port https://localhost:3000');
     }
