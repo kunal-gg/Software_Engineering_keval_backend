@@ -22,8 +22,8 @@ app.post('/register', (req, res) => {
     const user = new User({
         username: username,
         password: password,
-        email: email
-        
+        email: email,
+        name: name       
     })
 
 
